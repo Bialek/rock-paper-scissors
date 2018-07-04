@@ -1,4 +1,4 @@
-.container {
+.container-fluid {
 	margin-bottom: 30px;
 }
 i {
@@ -6,4 +6,7 @@ i {
 }
 body {
 	background-color: #feff00;
+}
+img {
+	width: 300px;
 }
