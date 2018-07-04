@@ -11,15 +11,18 @@
 	<div class="container text-center">
 		<h3>Welcome to the game</h3>
 		<span class="label label-default">Rock</span>
-		<span class="label label-info">Paper</span>
-		<span class="label label-danger">Scissors</span>		
+		<span class="label label-primary">Paper</span>
+		<span class="label label-danger">Scissors</span>
+		<span class="label label-success">Lizard</span>
+		<span class="label label-info">Spock</span>		
 	</div>
 
 	<div class="container" id="newGameElement">
 		<div class="row text-center">
 			<button class="btn btn-default" id="newGameButton">
 				New Game
-			</button>	
+			</button>
+			<a href="http://bigbangtheory.wikia.com/wiki/Rock_Paper_Scissors_Lizard_Spock" target="_blank" class="btn btn-info">How To Play</a>	
 		</div>	
 	</div>
 
@@ -27,21 +30,33 @@
 		<div class="row text-center">
 			<button class="btn" id="playerPickRock">
 				<span class="badge">
-					<i class="far fa-hand-rock" aria-hidden="true"></i>
+					<i class="far fa-hand-rock"></i>
 				</span>
 				Rock	
 			</button>
-			<button class="btn" id=playerPickPaper>
+			<button class="btn btn-primary" id=playerPickPaper>
 				<span class="badge">
-					<i class="far fa-hand-paper" aria-hidden="true"></i>
+					<i class="far fa-hand-paper"></i>
 				</span>	
 				Paper
 			</button>
-			<button class="btn" id=playerPickScissors>
+			<button class="btn btn-danger" id=playerPickScissors>
 				<span class="badge">
-					<i class="far fa-hand-scissors" aria-hidden="true"></i>
+					<i class="far fa-hand-scissors"></i>
 				</span>	
 				Scissors
+			</button>
+			<button class="btn btn-success" id=playerPickLizard>
+				<span class="badge">
+					<i class="far fa-hand-lizard"></i>
+				</span>	
+				Lizard
+			</button>
+			<button class="btn btn-info" id=playerPickSpock>
+				<span class="badge ">
+					<i class="far fa-hand-spock"></i>
+				</span>	
+				Spock
 			</button>
 		</div>	
 	</div>
